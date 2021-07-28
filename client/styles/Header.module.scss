@@ -1,0 +1,23 @@
+.header{
+  background: #FFFFFF;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header__content{
+  padding: 20px 16px;
+  margin: 0 auto;
+  max-width: 1484px;
+}
+
+.header__links{
+  text-transform: uppercase;
+  a{
+    margin: 0 78px 0 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    &:last-child{
+      margin: 0;
+    }
+  }
+}
