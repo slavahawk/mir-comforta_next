@@ -123,8 +123,10 @@
 .main__box {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
   height: 100%;
   margin: 12px 0 0;
+  padding: 0 20px;
 }
 
 .main__text {
@@ -133,9 +135,10 @@
   align-items: center;
 }
 
-.text{
+.text {
   max-width: 600px;
   margin: 0 auto;
+
   h1 {
     font-weight: normal;
     font-size: 50px;
@@ -146,35 +149,44 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+    margin: 32px 0 47px;
   }
 }
 
-.button__catalog{
+.button__catalog {
   border-radius: 5px;
   background: #F35700;
   padding: 14px 24px;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
 }
 
-.categories{
+.categories {
   margin: 84px auto;
   max-width: 1484px;
   padding: 0 16px;
 
-  &__content{
+  &__content {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 38px;
   }
 }
-.categories__item{
+
+.categories__item {
   background: #F9F9F9;
   padding: 24px;
-  p{
+
+  p {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
   }
-  span{
+
+  span {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;

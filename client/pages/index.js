@@ -54,7 +54,6 @@ export default function Home({products}) {
                 )}
                 </div>
             </section>
-
         </MainContainer>
     )
 }
